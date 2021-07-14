@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Balls
+  - EnemyBalls
+  - Hippo
+  - Enemies
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 3041278387
+    locked: 0
+  - name: Player
+    uniqueID: 1943468627
+    locked: 0
+  - name: Enemy1
+    uniqueID: 53502731
+    locked: 0
+  - name: Enemy2
+    uniqueID: 3764018043
+    locked: 0
+  - name: Enemy3
+    uniqueID: 1712803143
+    locked: 0
+  - name: Balls
+    uniqueID: 2884163505
+    locked: 0
