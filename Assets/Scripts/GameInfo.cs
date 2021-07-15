@@ -91,6 +91,17 @@ public class GameInfo : MonoBehaviour
 		}
 	}
 
+	public EnemyBall GetEnemyBall()
+	{
+		foreach (EnemyBall ball in GameInfo.Instance.EnemyBalls)
+		{
+			if (!ball.isUsing)
+			{
+				return ball;
+			}
+		}return null;
+	}
+
 	public void RestartGame()
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

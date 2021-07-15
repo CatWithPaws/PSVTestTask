@@ -135,15 +135,8 @@ public class Enemy : Entity
 
 	void Shoot()
 	{
-		EnemyBall enemyBall = new EnemyBall();
-		foreach (EnemyBall ball in GameInfo.Instance.EnemyBalls)
-		{
-			if (!ball.isUsing)
-			{
-				enemyBall = ball;
-				break;
-			}
-		}
+		EnemyBall enemyBall = GameInfo.Instance.GetEnemyBall();
+		
 		
 		Vector3 _hippoDirection =  Player.Instance.gameObject.transform.position - transform.position ;
 		_hippoDirection = _hippoDirection.normalized;
